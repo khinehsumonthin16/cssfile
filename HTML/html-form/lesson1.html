@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 1 form (my first form)</title>
+</head>
+<body>
+    <h1>student registration </h1>
+    <form>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
+        <label for="email" for="Email">Email</label>
+        <input type="text" id="Email" name="Email">
+        <br><br>
+        <label for="reason">Why do you want to learn?</label>
+        <textarea name="reason" id="reason" rows="4" cols="30"></textarea>
+        <br><br>
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+    </form>
+
+    <h1>My student registration</h1>
+    <form>
+        <label for="fullname">Full name</label>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="password">Passward</label>
+        <input type="password" name="passward" id="password">
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="text" id="gender" name="gender">
+        <br><br>
+        <label for="reason">Why do you want to learn IT?</label>
+        <textarea name="reason" id="reason" rows="3" cols="30"></textarea>
+    </form>
+
+    <h1>Student registration</h1>
+    <form>
+        <label for="fullname">Full Name</label>
+        <br>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
+        <label for="email" for="email">Email</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="Date" for="date">Date of birth</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <h4>IT Level</h4>
+        <input type="radio" id="level" name="level">
+        <label for="level">beginner</label>
+        <br>
+        <input type="radio" id="level" name="level">
+        <label for="level">Intermidiate</label>
+        <br>
+        <input type="radio" id="level" name="level">
+        <label for="level">Advanced</label>
+        <br><br>
+
+        <h4>Skills you want to learn</h4>
+
+         <input type="checkbox" id="level" name="level">
+        <label for="level">HTML</label>
+        <br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">CSS</label>
+        <br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">javaScript</label>
+        <br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Python</label>
+        <br><br>
+        <button type="submit">Register</button> 
+        <br><br>
+        <button type="reset">Clear</button>
+        <br><br>
+        <label for="fullname">Full name</label>
+        <input type="text" placeholder="Enter your full name" id="fullname" name="fullname">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <input type="text" name="country" value="Myanmar">
+        <br><br>
+        <input type="number" name="age" max="10" min="0">
+        <br><br>
+        <input type="text" name="username" maxlength="5">
+        <br><br>
+        <input type="text" name="country" value="myanmar" readonly>
+        <br><br>
+        <input type="text" name="country" value="myanmar" disabled>
+        <br><br>
+         <input type="checkbox" name="skills" value="HTML" id="skills" checked>
+        <label for="skills">HTML</label>
+        <br><br>
+    </form>
+    <form autocomplete="on">
+        <input type="text" name="fullname" autocomplete="name" >
+        <br>
+        <input type="text" name="email" autocomplete="email">
+        <br><br>
+        <textarea name="about you" id="story" minlength="20" maxlength="50"></textarea>>
+        <br>
+        <input type="number" name="counting" min="0" max="50" step="10">
+        <br><br>
+    </form>
+    
+    <form autocomplete="on">
+        <label for="fullname">Full Name</label>
+        <input type="text" placeholder="Enter your full name" id="fullname" name="fullname">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"required>
+        <br><br>
+        <label for="username">Username</label>
+        <input type="text" id="username" minlength="7" maxlength="15" name="name">
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="18" max="30">
+        <br><br>
+        <p>IT level</p>
+        <input type="checkbox" id="level" name="level" checked>
+        <label for="level">Beginner</label>
+        <br><br>
+        <button type="submit">Register</button>
+        <br><br>
+        <button type="reset">Clear</button>
+    </form>
+    <form>
+        <label for="country">Choose your country</label>
+        <select id="country" name="country">
+            <optgroup label="south eastasia">
+                <option value="mm">Myanmar</option>
+                <option value="ja">Japan</option>
+                <option value="ma">Malaysia</option>
+            </optgroup>
+            <optgroup label="westen countries">
+                <option value="US">United state</option>
+                <option value="UK">United kingdom</option>
+                <option value="ep">Europe</option>
+            </optgroup>
+        </select>
+    </form>
+    
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <br><br>
+        </fieldset>
+    </form>
+
+       
+            <label for="language">Choose your language</label>
+            <input type="text" list="languages" id="language" name="language">
+
+            <datalist id="languages">
+                <option value="english">
+                <option value="Myanmar">
+                <option value="Japanese">
+                <option value="Chinese">
+            </datalist>
+
+  <h1>Student Search</h1>
+
+  <form 
+  action="https://www.google.com/search"
+  target="_blank"
+  method="get">
+    <label for="search">Search the topic</label>
+    <input type="text" id="search" name="search" required>
+    <button type="submit">Search</button>
+  </form>
+  <br><br>
+  <form
+  action="https://www.google.com/search"
+  method="get"
+  target="_blank">
+
+  <label for="search">search all q</label>
+  <input type="text" name="q" id="search" required>
+  <button type="submit">search</button>
+
+</form>
+
+   
+</body>
+</html>

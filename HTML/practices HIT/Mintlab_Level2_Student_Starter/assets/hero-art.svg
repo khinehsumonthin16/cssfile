@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="840" viewBox="0 0 900 840">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#cfc8fb"/><stop offset="1" stop-color="#aaa5f9"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf9"/><stop offset="1" stop-color="#edeafc"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="25" flood-color="#514cac" flood-opacity=".28"/></filter>
+</defs>
+<rect width="900" height="840" rx="44" fill="url(#bg)"/>
+<path d="M-100 640 Q230 410 438 602 T1040 405 L1050 850 L-100 850Z" fill="#beb7fa"/>
+<circle cx="714" cy="141" r="110" fill="#e2ed92"/>
+<circle cx="753" cy="123" r="76" fill="none" stroke="#26302c" stroke-width="4" stroke-dasharray="12 17" opacity=".35"/>
+<path d="M93 128c55-23 75 4 114 16s75 4 110-32" stroke="#fff5db" stroke-width="20" stroke-linecap="round" fill="none"/>
+<path d="M167 295c-9-40-9-52 8-78 8 35 29 41 55 39-30 23-43 29-63 39Z" fill="#f18459"/>
+<g transform="translate(145,145) rotate(-5,300,270)" filter="url(#shadow)">
+ <rect x="15" y="72" width="620" height="440" rx="22" fill="#343850"/>
+ <rect x="28" y="82" width="594" height="406" rx="14" fill="url(#screen)"/>
+ <rect x="28" y="82" width="594" height="51" rx="13" fill="#faf5ed"/>
+ <circle cx="60" cy="108" r="7" fill="#f4a784"/><circle cx="84" cy="108" r="7" fill="#e8d96e"/><circle cx="108" cy="108" r="7" fill="#b9cdae"/>
+ <rect x="260" y="102" width="138" height="12" rx="6" fill="#e8e7ea"/>
+ <rect x="62" y="166" width="245" height="275" rx="19" fill="#ee9f7b"/>
+ <path d="M77 422c36-82 60-140 110-171 35 55 53 57 104 81v91Z" fill="#f9ceaf"/>
+ <circle cx="201" cy="247" r="49" fill="#ecd978"/>
+ <path d="M92 218l40 45-40 45" fill="none" stroke="#fff5e8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M280 214l-40 45 40 45" fill="none" stroke="#fff5e8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="343" y="206" fill="#46405c" font-size="18" font-weight="900" font-family="Arial,sans-serif" letter-spacing="2">YOUR FIRST</text>
+ <text x="340" y="255" fill="#282537" font-size="41" font-weight="900" font-family="Arial,sans-serif">big idea</text>
+ <text x="342" y="295" fill="#282537" font-size="41" font-weight="900" font-family="Arial,sans-serif">starts here.</text>
+ <rect x="344" y="326" width="209" height="12" rx="6" fill="#d6d0e1"/>
+ <rect x="344" y="346" width="185" height="12" rx="6" fill="#e6e1eb"/>
+ <rect x="344" y="382" width="174" height="46" rx="23" fill="#7968ec"/>
+ <text x="386" y="409" fill="#fff" font-size="14" font-weight="800" font-family="Arial,sans-serif">LET'S GO ↗</text>
+ <path d="M-3 509 L661 509 L698 538Q695 558 666 558H0Q-33 550-3 509Z" fill="#eae8f8"/>
+ <rect x="257" y="521" width="161" height="11" rx="6" fill="#c3bee4"/>
+</g>
+<g transform="translate(621,477) rotate(12)"><rect width="207" height="156" rx="12" fill="#e4ed95"/><path d="M34 42h139M34 66h115M34 90h131" stroke="#8c9d63" stroke-width="10" stroke-linecap="round"/><text x="33" y="129" font-size="27" font-weight="800" fill="#5d7350" font-family="Arial,sans-serif">MAKE IT!</text></g>
+<g transform="translate(103,610) rotate(-13)"><rect width="203" height="140" rx="13" fill="#fff2d3"/><path d="M25 35h130M25 59h144M25 83h113" stroke="#d5b892" stroke-width="9" stroke-linecap="round"/><path d="M160 107l12 18 15-45" fill="none" stroke="#6c73bc" stroke-width="9" stroke-linecap="round"/></g>
+<g stroke="#fffbea" stroke-width="10" stroke-linecap="round"><path d="M700 296v59M670 326h59"/><path d="M112 461v53M88 487h49"/></g>
+<circle cx="825" cy="720" r="45" fill="#f79d75"/><path d="M809 711l12 12 22-26" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

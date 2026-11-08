@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="490" viewBox="0 0 720 490">
+<rect width="720" height="490" rx="32" fill="#f7ae83"/>
+<circle cx="583" cy="112" r="145" fill="#f3c5a6"/><path d="M0 402c123-102 173-87 298-7s275 62 422-49v144H0Z" fill="#ef946b"/>
+<g transform="translate(103 62) rotate(-6 260 170)"><rect width="518" height="341" rx="19" fill="#2f3444"/><rect x="15" y="15" width="488" height="311" rx="12" fill="#fff8eb"/><rect x="15" y="15" width="488" height="50" rx="12" fill="#eee8dc"/><circle cx="46" cy="39" r="8" fill="#fba07c"/><circle cx="72" cy="39" r="8" fill="#f8d474"/><circle cx="97" cy="39" r="8" fill="#abc7ac"/>
+<text x="57" y="136" fill="#664fd0" font-size="49" font-weight="900" font-family="Arial,sans-serif">&lt;html&gt;</text><path d="M61 171h299M61 194h380M61 217h245" stroke="#dcd6e9" stroke-width="14" stroke-linecap="round"/>
+<rect x="63" y="257" width="199" height="46" rx="23" fill="#7d6bf0"/><text x="100" y="284" fill="#fff" font-size="17" font-weight="900" font-family="Arial,sans-serif">HELLO WEB!</text>
+</g><g fill="#fff4d7"><path d="M588 418l11 26 27 11-27 11-11 25-11-25-26-11 26-11z"/></g>
+</svg>

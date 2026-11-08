@@ -1,0 +1,17 @@
+h1{
+    color: purple;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+p{
+    color: darkblue;
+}
+
+#img1{
+    width: 100px;
+    border: 100px;
+    border-color: black;
+}
+

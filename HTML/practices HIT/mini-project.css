@@ -1,0 +1,39 @@
+#first-h{
+    border: 20 px solid red;
+    text-align: center;
+    border: 1px solid red;
+}
+#p-1{
+    text-align: justify;
+    border: 1px solid green;
+}
+
+#second-h{
+    color: red;
+    text-align: left ;
+    border: 1px solid blue;
+    width: 90px;
+
+}
+#p-2{
+    color: lightgreen;
+    text-align: justify;
+    border:  1px solid black;
+
+}
+
+#third-h{
+    background-color: black;
+    text-align: right;
+    border:  1px solid red;
+    color: white;
+    width: 100px;
+    margin-left: 80%;
+}
+
+#p-3{
+    background-color: black;
+    color: green;
+    border: 1px solid red;
+}
+

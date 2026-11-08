@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="490" viewBox="0 0 720 490">
+<rect width="720" height="490" rx="32" fill="#bfb5f6"/><circle cx="157" cy="87" r="114" fill="#d3cbff"/><path d="M0 466q150-169 360 0t360-30v54H0Z" fill="#aaa0ec"/>
+<g transform="translate(127 38) rotate(-8 220 180)"><rect width="408" height="383" rx="22" fill="#fff9e7"/><rect x="41" y="43" width="151" height="18" rx="9" fill="#b4aad9"/><text x="42" y="135" font-size="42" font-weight="900" fill="#302e47" font-family="Arial,sans-serif">Try.</text><text x="42" y="184" font-size="42" font-weight="900" fill="#302e47" font-family="Arial,sans-serif">Learn.</text><text x="42" y="233" font-size="42" font-weight="900" fill="#302e47" font-family="Arial,sans-serif">Repeat.</text>
+<rect x="43" y="275" width="318" height="13" rx="6" fill="#ddd6e7"/><rect x="43" y="301" width="281" height="13" rx="6" fill="#ddd6e7"/>
+<circle cx="306" cy="110" r="53" fill="#e3ed9d"/><path d="M282 111l15 17 32-40" stroke="#5c6c54" stroke-width="11" stroke-linecap="round" fill="none"/></g>
+<g transform="translate(562 321) rotate(17)"><rect width="101" height="95" rx="10" fill="#f5a485"/><path d="M21 33h55M21 53h41" stroke="#fff8ed" stroke-width="9" stroke-linecap="round"/></g>
+</svg>

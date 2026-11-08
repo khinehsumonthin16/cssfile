@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML final projec</title>
+    <meta charset="utf=8">
+    <meta name="viewport" content="width=device-width,"scale1.0>
+    <style>
+        table{
+            width: 100%;
+        }
+        .nav-th{
+            background:black;
+            color: white;
+            height: 50px;
+            text-align: center;
+        }
+        
+        #first-h{
+            text-align: center;
+        }
+        #first-p{
+            text-align: justify;
+        }
+        #second-h{
+            text-align: center;
+        }
+        #third-h{
+            text-align: center;
+        }
+        input,select{
+            width: 100%;
+            height:30px;
+        }
+         .contact-td{
+           padding:5px ;
+        }
+        textarea{
+            width: 100%;
+            height: 100px;
+        }
+        #p1{
+            text-align: center;
+        }
+        #h2{
+            text-align: center;
+        }
+        a{
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+   <nav>
+    <table>
+        <tr>
+            <th class="nav-th"><a href="">Home</a></th>
+            <th class="nav-th"><a href="#about section">About</a></th>
+            <th class="nav-th"><a href="#Skill section">Skills</a></th>
+            <th class="nav-th"><a href="#contect section">Contact</a></th>
+        </tr>
+    </table>
+   </nav>
+
+<section id="images sections">
+   <table>
+     <tr>
+            <td> <img src="IMG_0105.JPG" width="100%"></td>
+            <td> <img src="IMG_4607.JPG" width="100%"></td>
+        </tr>
+   </table>
+</section>
+
+<section id="hello section">
+    <h2 id="first-h">Hello, Welcome</h2>
+
+    <p id="first-p">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nemo corrupti obcaecati autem ipsa tempore ullam at, minima, facilis officiis aut animi totam magnam? Maxime corporis praesentium vitae ex beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit blanditiis eveniet corrupti, molestiae quod cupiditate quisquam, aliquam architecto facilis ipsam, deserunt nemo? Recusandae, consequuntur quam. Odio repudiandae nostrum voluptatum! Quo.
+    </p>
+</section>
+
+<section id="about section">
+    <h2 id="second-h">About Me</h2>
+    <table>
+        <tr>
+            <td>
+                <img src="IMG_4607.JPG" width="100px">
+            </td>
+            <td
+             align="justify"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde similique provident corrupti excepturi? Tempora quibusdam pariatur magnam autem aperiam cum ratione. Blanditiis deleniti error fuga maiores incidunt molestiae officia odio.</td>
+        </tr>
+    </table>
+</section>
+
+<section id="Skill section">
+    <h2 id="h2">My Skills</h2>
+    <table>
+        <tr>
+            <td>
+                <h4>Frontend</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascipt</li>
+                    <li>bootstrap</li>
+                    <li>vuejs</li>
+                    <li>JQuaery</li>
+                </ul>
+
+            </td>
+            <td>
+                <h4>Backend</h4>
+                <ul>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Python</li>
+                    <li>C#</li>
+                    <li>My SQL</li>
+                    <li>Dart</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<section id="contect section">
+    <h2 id="third-h">Contact Me</h2>
+    <table>
+        <tr>
+            <td class="contact-td">
+                <input type="text" name="first_name" placeholder="First Name">
+            </td>
+
+            <td class="contact-td">
+                <input type="text" name="Lastt_name" placeholder="Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td class="contact-td">
+                <input type="email" name="email" placeholder="Email">
+            </td>
+            <td class="contact-td">
+                <input type="password" name="password" placeholder="Password">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="contact-td">
+                <select name="" id="">
+                    <option >Select state</option>
+                    <option value="Chin">Chin</option>
+                    <option value="Yangon">Yangon</option>
+                    <option value="Kachin">kachin</option>
+                </select>
+            </td>
+            <td class="contact-td">
+                <select name="" id="">
+                    <option >Select township</option>
+                    <optgroup label="Chin">
+                    <option value="hakha">hakha</option>
+                    <option value="Falam">Falam</option>
+                    <option value="mindat">Mindat</option>
+                    </optgroup>
+                    <optgroup label="Yangon">
+                    <option value="tamwe">tamwe</option>
+                    <option value="yankin">yankin</option>
+                    <option value="hlaing">hlaing</option>
+                    </optgroup>
+                    <optgroup label="Kachin">
+                    <option value="mansi">mansi</option>
+                    <option value="bamaw">bamaw</option>
+                    <option value="moe kaung">moe kaung</option>
+                    </optgroup>
+                    
+                    
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea name="" id="" placeholder="Message"></textarea>
+            </td>
+            
+        </tr>
+
+
+    </table>
+</section>
+
+<footer style="background-color: black;color: white; height: 100px;"><br>
+        <p id="p1">&copy; All reserved by Wendy</p>
+</footer>
+
+
+
+
+</body>
+</html>

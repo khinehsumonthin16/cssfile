@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Learning Hub</title>
+</head>
+<body>
+
+    <h1>IT Learning Hub</h1>
+    <p>Register to begin your IT journey!</p>
+
+    <!-- TODO 1: Add navigation links -->
+    <!-- Include a link to the courses section -->
+
+    <!-- TODO 2: Add an image with src and alt -->
+
+    <form action="/register" method="post">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- TODO 3: Full Name -->
+             <label for="fullname"Full name></label><br>
+             <input type="text" id="fullname" name="name" placeholder="Enter your full name" required>
+             <br><br>
+            <!-- TODO 4: Email -->
+             <label for="email">Email</label><br>
+             <input type="email" id="email" name="mail" placeholder="you@example.com" required>
+             <br><br>
+            <!-- TODO 5: Password -->
+             <label for="password">Password</label><br>
+             <input type="password" id="password" name="password" required>
+             <br><br>
+            <!-- TODO 6: Age (18 to 30) -->
+             <label for="age">Age</label><br>
+             <input type="number" id="age" name="age" min="18" max="30" required>
+             <br><br>
+            <!-- TODO 7: Username (7 to 15 characters) -->
+             <label for="username">Username</label><br>
+             <input type="text" id="username" name="username" minlength="7" maxlength="20" required>
+             <br><br>
+            <!-- TODO 8: Date of Birth -->
+             <label for="date">Date</label>
+             <input type="date" id="date" name="date" required>
+             <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Learning Preferences</legend>
+
+            <!-- TODO 9: IT level radio buttons -->
+             <h4>IT level</h4>
+             <label for="level">beginner</label>
+             <input type="radio" name="level" id="beginner">
+             <br>
+             <label for="level">intermidiate</label>
+             <input type="radio" name="level" id="intermidiate">
+             <br>
+             <label for="level">advanced</label>
+             <input type="radio" name="level" id="advanced">
+             <br><br>
+            <!-- TODO 10: Country dropdown -->
+             <label for="country">choose your country</label>
+             <select id="country">
+                <option value="US">United state</option>
+                <option value="UK">united kingdom</option>
+                <option value="EU">Europe</option>
+                <option value="Asian">china</option>
+             </select>
+
+            <h2 id="courses">Available Courses</h2>
+
+            <!-- TODO 11: Course dropdown -->
+             <label for="course">Courses</label>
+             <select name="course" id="course">
+                <optgroup label="web development">
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">javascript</option>
+                </optgroup>
+
+               <optgroup label="programming">
+                <option value="">python</option>
+                <option value="">java</option>
+                <option value="">C++</option>
+               </optgroup>
+            </select>
+            <br><br>
+
+            <!-- TODO 12: Skills checkboxes -->
+             <label>choose your skills</label>
+             <br><br>
+             <input type="checkbox" id="skills" name="skills">
+             <label for="skills">python</label>
+             <br>
+             <input type="checkbox" id="skills" name="skills">
+             <label for="skills">java</label>
+             <br>
+             <input type="checkbox" id="skills" name="skills">
+             <label for="skills">c++</label>
+             <br>
+
+
+            <!-- TODO 13: Programming language datalist -->
+             <h4>Programming languages</h4>
+
+           <input type="text" id="language" name="language" list="language-options">
+           <datalist id="language-options">
+              <option value="python">
+              <option value="java">
+              <option value="C++">
+              <option value="C#">
+
+           </datalist>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <!-- TODO 14: File upload -->
+             <label for="file">pls upload file here</label><br>
+             <input type="file">
+             <br><br>
+            <!-- TODO 15: About yourself textarea -->
+             <label for="story">About yourself</label><br>
+             <textarea name="story" id="story" rows="5" cols="40"></textarea>
+            
+        </fieldset>
+
+        <!-- TODO 16: Submit and Reset buttons -->
+         <button type="submit">Register</button>
+         <br><br>
+        <button type="reset">Clear</button>
+
+    </form>
+
+</body>
+</html>

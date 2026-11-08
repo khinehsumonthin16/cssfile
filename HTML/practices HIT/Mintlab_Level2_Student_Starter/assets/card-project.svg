@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="490" viewBox="0 0 720 490">
+<rect width="720" height="490" rx="32" fill="#b4dec2"/><path d="M0 275Q250 95 480 287T780 110v410H0Z" fill="#9dd2ad"/>
+<g transform="translate(95 49) rotate(4 255 188)"><rect width="525" height="367" rx="25" fill="#fffaf3"/><rect width="525" height="64" rx="24" fill="#313b35"/><circle cx="38" cy="32" r="7" fill="#edaa87"/><circle cx="65" cy="32" r="7" fill="#f2dc81"/><circle cx="92" cy="32" r="7" fill="#bde1b7"/>
+<rect x="30" y="94" width="226" height="235" rx="14" fill="#b4a4ed"/><circle cx="137" cy="172" r="50" fill="#eae2d0"/><path d="M77 303q10-88 65-90t69 90" fill="#544d83"/>
+<text x="287" y="144" font-size="23" font-weight="900" font-family="Arial,sans-serif" fill="#67746d">HI, I'M</text><text x="284" y="196" font-size="51" font-weight="900" font-family="Arial,sans-serif" fill="#303630">A maker.</text><rect x="290" y="221" width="177" height="12" rx="6" fill="#dadbd0"/><rect x="290" y="244" width="143" height="12" rx="6" fill="#dadbd0"/><rect x="289" y="278" width="161" height="38" rx="19" fill="#f5ad86"/></g>
+<circle cx="91" cy="410" r="35" fill="#e7eda4"/><path d="M610 406v59m-29-29h58" stroke="#fff9ec" stroke-width="12" stroke-linecap="round"/>
+</svg>

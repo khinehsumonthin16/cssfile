@@ -1,0 +1,70 @@
+MINTLAB — EXACT CONTENT FOR YOUR WEBSITE
+(Use the reference screenshot to decide where each piece belongs.)
+
+NAVIGATION
+Home  ->  #home
+Learning tracks  ->  #tracks
+Weekly plan  ->  #schedule
+
+HERO
+✳ WELCOME TO YOUR CREATIVE SPACE
+Make time for big ideas.
+Little lessons, real projects and a whole lot of creative confidence. Learn something new, one delightful step at a time.
+Explore the tracks ↗   ->  #tracks
+See the weekly plan   ->  #schedule
+✦ BEGINNER FRIENDLY  •  LEARN AT YOUR OWN PACE
+
+THREE BENEFITS (left to right)
+Easy to start | Simple steps, zero pressure.
+Made for makers | Practice with mini projects.
+Grow every week | Build skills you can show.
+
+LEARNING TRACKS INTRO
+Find your next little obsession.
+Choose a path that feels exciting. Everything starts with one small project.
+
+TRACK CARD 1
+TRACK 01 • FIRST STEPS
+HTML Starter Kit
+Get comfy with headings, links, images and the structure of a webpage.
+View track ↗  ->  #schedule
+
+TRACK CARD 2
+TRACK 02 • BUILD SOMETHING
+My First Portfolio
+Turn what you know into a personal page that feels like you.
+View track ↗  ->  #schedule
+
+TRACK CARD 3
+TRACK 03 • KEEP GOING
+Practice Playground
+Try fun HTML challenges and watch your confidence grow.
+View track ↗  ->  #schedule
+
+WEEKLY PLAN INTRO
+A little learning, a lot of doing.
+Big progress starts with showing up. Here's a simple plan to keep your creativity moving all week.
+
+THREE HIGHLIGHTS
+Friendly, bite-sized lessons
+Real HTML practice every session
+Build your own mini project
+
+WEEKLY SCHEDULE
+DAY | FOCUS | FORMAT
+MON | HTML Foundations | Learn
+WED | Links & Images | Practice
+FRI | Mini Website | Build
+Final row spanning all 3 columns:
+✦ Every lesson brings a new little win ✦
+
+FINAL CALL TO ACTION
+Ready to make something?
+Your first step can be as small as opening a new HTML file.
+Start exploring ↗ -> https://developer.mozilla.org/en-US/docs/Web/HTML
+(Open this external link in a new tab.)
+
+FOOTER LINKS
+Back to top ↑  ->  #top
+Tracks  ->  #tracks
+Schedule  ->  #schedule
